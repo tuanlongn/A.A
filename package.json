@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "web:dev": "lerna --scope=web run dev --stream",
+    "web:build": "lerna --scope=web run build",
+    "mobile:start": "lerna --scope=mobile run start --stream",
+    "mobile:ios": "lerna --scope=mobile run ios --stream",
+    "mobile:android": "lerna --scope=mobile run android --stream"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "main": "*",
+    "next": "9.5.5",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-native-web": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-plugin-react-native-web": "^0.14.2",
+    "next-transpile-modules": "^4.1.0"
+  }
+}

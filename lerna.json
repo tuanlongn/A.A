@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "mobile",
+    "web",
+    "main"
+  ],
+  "nohoist": [
+    "eslint"
+  ],
+  "version": "0.0.1"
+}
